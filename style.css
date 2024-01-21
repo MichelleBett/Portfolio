@@ -193,3 +193,8 @@
     color: var(--primary);
     margin-bottom: 2rem;
   }
+
+    /* skills styles */
+.skills-header {
+    padding-bottom: 2rem;
+  }
