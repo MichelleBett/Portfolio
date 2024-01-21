@@ -198,3 +198,73 @@
 .skills-header {
     padding-bottom: 2rem;
   }
+
+  
+  /* contact styles */
+.contact-info-item {
+    display: flex;
+  }
+  
+  .contact-info-icon {
+    width: 50px;
+    height: 50px;
+    background-color: var(--accent);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input,
+  textarea {
+    background: var(--secondary);
+    border: none;
+    border-radius: 10px;
+    margin-top: 1rem;
+    padding: 0.8rem 1rem;
+  }
+  
+
+
+
+.con{ 
+    display: flex; 
+    width: 80%; 
+} 
+
+.one{ 
+    background: url(./images/webdev.jpg); 
+} 
+.two{ 
+    background: url(./images/software.jpg); 
+} 
+.three{ 
+    background: url(./images/machlearn.jpg); 
+} 
+.four{ 
+    background: url(./images/javsc.jpg); 
+} 
+
+.section{ 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 80vh; 
+    cursor: pointer; 
+    flex: 0.2; 
+    margin:8px; 
+    position: relative; 
+    transition: all 0.7s ease-out; 
+}  
+  
+
+.section.active{ 
+    flex: 3; 
+}
